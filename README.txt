@@ -15,12 +15,12 @@ piscina2_profundidad = 35
 
 #2. Calcular área de cada piscina
 	
-
+		area_piscina1 = piscina1_ancho * piscina1_largo 
 area_piscina2 = piscina2_ancho * piscina2_largo
 
 #3. Calcular volumen de cada piscina
 	
-
+		volumen_piscina1 =area_piscina1 * piscina1_profundidad
 volumen_piscina2 = area_piscina2 * piscina2_profundidad	
 
 #4.Calcular espacio total cuando están juntas
@@ -37,5 +37,6 @@ volumen_piscina2 = area_piscina2 * piscina2_profundidad
 		piscina1_profundidad := piscina2_profundidad
 		piscina2_profundidad := piscina1_profundidad
 
-
+		volumen_piscina1 =area_piscina1 * piscina1_profundidad
+		volumen_piscina2 = area_piscina2 * piscina2_profundidad
 FIN
